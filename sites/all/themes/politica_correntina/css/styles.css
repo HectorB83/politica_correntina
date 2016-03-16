@@ -932,11 +932,6 @@ table {
   padding: 0;
 }*/
 /* Logo image. */
-/* line 92, ../sass/components/_misc.scss */
-.header__logo-image {
-  vertical-align: bottom;
-}
-
 /* Wrapper for website name and slogan. */
 /* line 98, ../sass/components/_misc.scss */
 .header__name-and-slogan {
@@ -1801,10 +1796,15 @@ tr.selected td {
   float: left;
   /* LTR */
   margin: 0;
-  padding: 50px;
 }
 
 /* Logo image. */
+/* line 46, ../sass/styles.scss */
+.header__logo-image {
+  width: 70%;
+  padding: 0px;
+}
+
 /* Menu principal */
 /*  li {
       // A simple method to get navigation links to appear in one line. 
@@ -1815,15 +1815,14 @@ tr.selected td {
     } */
 /* line 65, ../sass/styles.scss */
 .block.block-menu-block.even {
-  position: relative;
   margin: 0;
   padding: 0;
-  bottom: 260px;
+  bottom: 290px;
 }
 /* line 71, ../sass/styles.scss */
 .block.block-menu-block.even ul.menu li {
   list-style: none;
-  display: inline-block;
+  float: left;
   margin: 0;
   padding: 0;
 }
@@ -1873,17 +1872,18 @@ tr.selected td {
           
           } 
     
-  }*/
-/* line 136, ../sass/styles.scss */
-.block.block-views {
-  position: relative;
-  width: 450px;
-  height: 23px;
-  top: -120px;
-  left: 56%;
-  background: #fff;
-}
+  }
+ 
+    .block.block-views {
+       position: relative; 
 
+      width: 450px;
+      height: 23px;
+      top: - 120px;
+      left: 56%;
+      background:#fff;
+  
+    }*/
 /* bloque de busqueda */
 /* line 151, ../sass/styles.scss */
 .block.block-search {
